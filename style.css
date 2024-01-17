@@ -1,7 +1,7 @@
 body {
     background: mediumslateblue;
     padding: 30px;
-    width: initial;
+    width: max-content;
     height: 100vh;
 }
 
