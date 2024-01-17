@@ -177,11 +177,16 @@
                 <div class="nav-flex" style="color: rgb(143, 91, 233)">
                     <span class="material-symbols-outlined"> menu </span>
                     <br />
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined" onclick="cvTab()">
                         contract_edit
                     </span>
                     <br />
-                    <span class="material-symbols-outlined"> music_note </span>
+                    <span
+                        class="material-symbols-outlined"
+                        onclick="aboutTab()"
+                    >
+                        music_note
+                    </span>
                     <br />
                     <span class="material-symbols-outlined"> healing </span>
                     <br />
@@ -191,7 +196,12 @@
                     <br />
                     <span class="material-symbols-outlined"> opacity </span>
                     <br />
-                    <span class="material-symbols-outlined"> mail </span>
+                    <span
+                        class="material-symbols-outlined"
+                        onclick="contactTab()"
+                    >
+                        mail
+                    </span>
                 </div>
                 <div
                     class="nav-flex"
@@ -258,16 +268,20 @@
                         <p style="margin-left: 30px; color: deeppink">
                             < /head>
                         </p>
-                        <p style="margin-left: 30px;">
-                            < body>
-                        </p>
-                                <div style="margin-left: 40px; color: lightsalmon" class="text"></div>
-                        <p style="margin-left: 30px;">
-                            < /body>
-                        </p>
+                        <p style="margin-left: 30px">< body></p>
+                        <div
+                            style="margin-left: 40px; color: lightsalmon"
+                            class="text"
+                        ></div>
+                        <p
+                            style="margin-left: 40px; color: deeppink"
+                            class="svgText"
+                        ></p>
+
+                        <p style="margin-left: 30px">< /body></p>
                     </div>
 
-                    <div class="svg-container">
+                    <div class="svg-container" onmouseover="clickMe()">
                         <a href="https://www.behance.net/fridalindholm">
                             <svg
                                 class="paper"
