@@ -1,0 +1,78 @@
+<svg class="paper"
+                viewBox="0 50 300 1" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                <rect width="50" height="70" x="90" y="120" fill="slateblue" />
+                <rect width="5" height="20" x="105" y="12" fill="slateblue" />
+                <rect width="5" height="20" x="120" y="7" fill="slateblue" />
+
+                <rect
+                    width="5"
+                    height="20"
+                    x="135"
+                    y="15"
+                    fill="mediumslateblue"
+                />
+
+                <circle r="60" cx="100" cy="80" fill="mediumslateblue" />
+                <rect width="30" height="5" x="40" y="80" fill="slateblue" />
+                <circle r="30" cx="120" cy="90" fill="slateblue" />
+                <circle r="30" cx="120" cy="85" fill="seashell" />
+                <circle r="10" cx="124" cy="87" fill="darkslateblue" />
+                <circle r="3" cx="120" cy="85" fill="white" />
+                <circle r="31" cx="120" cy="85" fill="violet" />
+                <rect width="70" height="5" x="84" y="80" fill="darkorchid" />
+                <rect width="50" height="70" x="53" y="52" fill="slateblue" />
+                <rect width="50" height="70" x="50" y="50" fill="thistle" />
+                <rect width="30" height="3" x="59" y="60" fill="steelblue" />
+                <rect width="20" height="3" x="59" y="70" fill="steelblue" />
+                <rect width="30" height="3" x="59" y="80" fill="steelblue" />
+                <rect width="30" height="3" x="59" y="90" fill="steelblue" />
+                <rect width="15" height="3" x="75" y="100" fill="steelblue" />
+                <rect width="10" height="12" x="59" y="100" fill="coral" />
+
+                <rect
+                    width="40"
+                    height="15"
+                    x="140"
+                    y="175"
+                    fill="mediumslateblue"
+                />
+                <rect width="15" height="15" x="165" y="175" fill="slateblue" />
+                <rect width="7" height="15" x="150" y="175" fill="slateblue" />
+
+                <rect
+                    width="20"
+                    height="20"
+                    x="70"
+                    y="170"
+                    fill="mediumslateblue"
+                />
+                <rect
+                    width="5"
+                    height="10"
+                    x="70"
+                    y="165"
+                    fill="mediumslateblue"
+                />
+                <rect
+                    width="20"
+                    height="20"
+                    x="110"
+                    y="170"
+                    fill="mediumslateblue"
+                />
+                <rect
+                    width="5"
+                    height="5"
+                    x="110"
+                    y="165"
+                    fill="mediumslateblue"
+                />
+                <rect
+                    width="5"
+                    height="5"
+                    x="120"
+                    y="165"
+                    fill="mediumslateblue"
+                />
+                <circle r="5" cx="118" cy="180" fill="slateblue" />
+            </svg>
