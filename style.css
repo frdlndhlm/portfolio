@@ -200,3 +200,56 @@ body {
     color: rgb(131, 94, 244);
     justify-content: right;
 }
+
+#dynamicForm > div {
+    display: flex;
+    flex-direction: column;
+    margin-block: 10px;
+}
+
+input {
+    background-color: transparent;
+    width: 100px;
+    font-size: 7px;
+    font-family: monospace;
+    color: mediumslateblue;
+    padding: 2px;
+    border: 1px solid white;
+    margin-block: 10px;
+    margin-inline: 5px;
+    border-radius: 10px;
+}
+
+textarea {
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    font-size: 7px;
+    font-family: monospace;
+    color: mediumslateblue;
+    padding: 4px;
+    border: 1px solid white;
+    margin-block: 10px;
+    margin-inline: 5px;
+    border-radius: 10px;
+    resize: none;
+    overflow: hidden;
+}
+
+#glow {
+    color: white;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+            0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073,
+            0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+            0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6,
+            0 0 80px #ff4da6;
+    }
+}
