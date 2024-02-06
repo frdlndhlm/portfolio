@@ -51,8 +51,11 @@ function aboutTab() {
     textTypingEffect(div, aboutHeader);
     document.querySelector(".text2").innerHTML;
     textTypingEffect(txt, aboutText);
-    document.querySelector(".text3").innerHTML;
+    setTimeout(() => {
+        document.querySelector(".text3").innerHTML;
     textTypingEffect(txt2, aboutText2);
+    }, 100);
+    
    
 
     //let aboutText2 = document.createElement("p");
