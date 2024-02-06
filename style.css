@@ -135,6 +135,8 @@ body {
     font-family: monospace;
     text-align: left;
     font-weight: 900;
+    overflow-y: auto;
+    scrollbar-width: none;
 }
 
 .svg-container {
