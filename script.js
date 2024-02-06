@@ -17,6 +17,7 @@ let viewed = false;
 let divOn = false;
 
 function textTypingEffect(element, text, i = 0) {
+    clearBox();
     if (i === 0) {
         element.textContent = "";
     }
