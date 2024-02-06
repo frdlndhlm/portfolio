@@ -40,8 +40,10 @@ function cvTab() {
     textTypingEffect(div, cvHeader);
     document.querySelector(".text2").innerHTML;
     textTypingEffect(txt, cvText);
-    document.querySelector(".text3").innerHTML;
+    setTimeout(() => {
+        document.querySelector(".text3").innerHTML;
     textTypingEffect(txt2, cvText2);
+    }, 200);
     
 }
 
@@ -54,7 +56,7 @@ function aboutTab() {
     setTimeout(() => {
         document.querySelector(".text3").innerHTML;
     textTypingEffect(txt2, aboutText2);
-    }, 100);
+    }, 500);
     
    
 
