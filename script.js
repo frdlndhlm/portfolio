@@ -3,6 +3,8 @@ const txt = document.querySelector(".text2");
 const txt2 = document.querySelector(".text3");
 const p = document.querySelector(".svgText");
 //const form = document.getElementById("dynamicForm");
+const inputEl = document.getElementById("inputText");
+const outputEl = document.getElementById("console");
 const text = "Welcome to my Portfolio!";
 const cvHeader = 'CV';
 const cvText = "-CodePoint (2023-2024) Frontend Web Development for Ecommerce-project";
@@ -139,3 +141,12 @@ function clickMe() {
         }, 2000);
     }
 }
+
+inputEl.addEventListener("input", function (evt) {
+    outputEl.innerHTML = inputEl.value;
+});
+
+inputEl.addEventListener("keyup", function (evt) {
+    if (evt.code === "Enter") location.reload();
+});
+
