@@ -8,8 +8,8 @@ const cvHeader = 'CV';
 const cvText = "-CodePoint (2023-2024) Frontend Web Development for Ecommerce-project";
 const cvText2 = "-Flatfish Games (2023-2024) Technical Animator, Unity Scripting, Rigging in Blender";
 const aboutHeader = 'About me:'
-const aboutText = "I am an 32 year old animator/ frontend developer situated in Turku, Finland. I graduated from Turku Arts Academy in 2017 with a Bachelor in Animation. I have since enjoyed a colourful career spanning from being a freelance comic artist to working abroad at a animation studio. I am always looking for way to improve and evolve my skillset and have recently delved into the world of programming, my most recent endeavor being getting proficient in Web development.";
-const aboutText2 = "Outside of work my interests include ornithology, tailoring my own clothes and learning the piano."
+const aboutText = "I am an 32 year old animator/ frontend developer situated in Turku, Finland. I graduated from Turku Arts Academy in 2017 with a Bachelor in Animation. I have since enjoyed a colourful career spanning from being a freelance comic artist to working abroad at a animation studio.";
+const aboutText2 = "I am always looking for way to improve and evolve my skillset and have recently delved into the world of programming, my most recent endeavor being getting proficient in Web development. Outside of work my interests include ornithology, tailoring my own clothes and learning the piano."
 const contactText = "Please feel free to contact me!";
 const svgText = "Click the little purple guy to go to my art portfolio.";
 
