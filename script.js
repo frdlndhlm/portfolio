@@ -71,6 +71,7 @@ function clearBox() {
     document.getElementById("dynamicForm").innerHTML = "";
     document.querySelector(".text").innerHTML = "";
     document.querySelector(".text2").innerHTML = "";
+    document.querySelector(".text3").innerHTML = "";
     document.querySelector(".svgText").innerHTML = "";
 }
 
