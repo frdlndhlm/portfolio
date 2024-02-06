@@ -30,15 +30,15 @@ textTypingEffect(div, text);
 function cvTab() {
     clearBox();
     document.querySelector(".text").innerHTML;
-    textTypingEffect(div, cvHeader);
-    textTypingEffect(div, cvText);
+    textTypingEffect(div, cvHeader, cvText);
+    
 }
 
 function aboutTab() {
     clearBox();
     document.querySelector(".text").innerHTML;
-    textTypingEffect(div, aboutHeader);
-    textTypingEffect(div, aboutText);
+    textTypingEffect(div, aboutHeader, aboutText);
+   
 
     //let aboutText2 = document.createElement("p");
     //let aboutContainer = document.querySelector(".text").innerHTML;
