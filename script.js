@@ -1,4 +1,5 @@
 const div = document.querySelector(".text");
+const txt = document.querySelector(".text2");
 const p = document.querySelector(".svgText");
 //const form = document.getElementById("dynamicForm");
 const text = "Welcome to my Portfolio!";
@@ -30,14 +31,18 @@ textTypingEffect(div, text);
 function cvTab() {
     clearBox();
     document.querySelector(".text").innerHTML;
-    textTypingEffect(div, cvHeader + cvText);
+    textTypingEffect(div, cvHeader);
+    document.querySelector(".text2").innerHTML;
+    textTypingEffect(txt, cvText);
     
 }
 
 function aboutTab() {
     clearBox();
     document.querySelector(".text").innerHTML;
-    textTypingEffect(div, aboutHeader + aboutText);
+    textTypingEffect(div, aboutHeader);
+    document.querySelector(".text2").innerHTML;
+    textTypingEffect(txt, aboutText);
    
 
     //let aboutText2 = document.createElement("p");
