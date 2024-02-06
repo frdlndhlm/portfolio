@@ -56,7 +56,7 @@ function aboutTab() {
     setTimeout(() => {
         document.querySelector(".text3").innerHTML;
     textTypingEffect(txt2, aboutText2);
-    }, 1500);
+    }, 1700);
     
    
 
