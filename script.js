@@ -1,9 +1,11 @@
 const div = document.querySelector(".text");
 const p = document.querySelector(".svgText");
 //const form = document.getElementById("dynamicForm");
-const text = "Hello! Welcome to my Portfolio.";
-const cvText = "This is the CV.";
-const aboutText = "This is the about page.";
+const text = "Welcome to my Portfolio!";
+const cvHeader = 'CV';
+const cvText = "-CodePoint (2023-2024)";
+const aboutHeader = 'About me:'
+const aboutText = "I am an 32 year old animator/ frontend developer situated in Turku";
 const contactText = "Please feel free to contact me!";
 const svgText = "Click the little purple guy to go to my art portfolio.";
 
@@ -28,12 +30,14 @@ textTypingEffect(div, text);
 function cvTab() {
     clearBox();
     document.querySelector(".text").innerHTML;
+    textTypingEffect(div, cvHeader);
     textTypingEffect(div, cvText);
 }
 
 function aboutTab() {
     clearBox();
     document.querySelector(".text").innerHTML;
+    textTypingEffect(div, aboutHeader);
     textTypingEffect(div, aboutText);
 
     //let aboutText2 = document.createElement("p");
