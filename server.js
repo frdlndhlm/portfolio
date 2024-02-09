@@ -20,14 +20,14 @@ app.post("/", (req, res) => {
         service: "gmail",
         auth: {
             //make these into environment variables
-            user: "funeiform@gmail.com",
-            pass: "psrr mvdv ceha nego",
+            user: "",
+            pass: "",
         },
     });
 
     const mailOptions = {
         from: req.body.email,
-        to: "funeiform@gmail.com",
+        to: "",
         subject: `Message from ${req.body.email}: ${req.body.subject}`,
         text: req.body.message,
     };
